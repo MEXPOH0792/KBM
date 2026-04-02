@@ -28,17 +28,6 @@ const io = new IntersectionObserver((entries) => {
 }, { threshold: 0.16 });
 revealEls.forEach((el) => io.observe(el));
 
-const tabButtons = document.querySelectorAll('[data-tab-button]');
-const tabPanels = document.querySelectorAll('[data-tab-panel]');
-if (tabButtons.length && tabPanels.length) {
-  tabButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const key = button.dataset.tabButton;
-      tabButtons.forEach((b) => b.classList.toggle('is-active', b === button));
-      tabPanels.forEach((panel) => panel.classList.toggle('is-active', panel.dataset.tabPanel === key));
-    });
-  });
-}
 
 const faqItems = document.querySelectorAll('.faq-item');
 faqItems.forEach((item) => {
