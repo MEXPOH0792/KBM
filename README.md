@@ -1,41 +1,20 @@
-# Клуб будущих миллионеров
+# Клуб будущих миллионеров — GitHub Pages версия
 
-Многостраничный premium-сайт о финансовой грамотности для мусульман.
+Готовый одностраничный сайт для GitHub Pages.
 
-## Структура
+## Файлы
+- `index.html`
+- `style.css`
+- `main.js`
+- `logo.png`
+- `favicon.png`
 
-- `index.html` — главная
-- `about.html` — о проекте
-- `halal-investments.html` — халяль инвестиции
-- `mudaraba.html` — договор мударраба
-- `materials.html` — материалы
-- `faq.html` — FAQ
-- `assets/css/style.css` — стили
-- `assets/js/main.js` — интерактив и Telegram-ссылка
-- `assets/img/logo.png` — логотип проекта
+## Telegram
+Ссылка на канал меняется в одном месте:
+- `main.js`
+- переменная `TELEGRAM_URL`
 
-## Как изменить ссылку на Telegram
-
-Открой файл `assets/js/main.js` и замени значение переменной:
-
-```js
-const TELEGRAM_URL = 'https://t.me/+gwV5DNGCevM0YWJi';
-```
-
-## Как запустить локально
-
-1. Скачай репозиторий.
-2. Открой `index.html` в браузере.
-
-## Как загрузить в GitHub
-
-1. Создай новый репозиторий на GitHub.
-2. Загрузи в него содержимое этой папки.
-3. Для публикации через GitHub Pages выбери ветку `main` и корневую папку `/root`.
-
-## Технологии
-
-- HTML
-- CSS
-- JavaScript
-
+## Публикация на GitHub Pages
+1. Загрузите все файлы в корень репозитория.
+2. В Settings -> Pages включите публикацию из branch `main` / root.
+3. Откройте ссылку GitHub Pages после деплоя.
