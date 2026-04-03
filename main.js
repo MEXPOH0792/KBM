@@ -29,3 +29,14 @@ document.querySelectorAll('.faq-item').forEach(item => {
   if (!btn) return;
   btn.addEventListener('click', () => item.classList.toggle('is-open'));
 });
+
+if (navToggle && navMenu) {
+  navToggle.addEventListener('click', () => {
+    const open = navMenu.classList.contains('is-open');
+    navToggle.setAttribute('aria-expanded', String(!open));
+  });
+  navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    navMenu.classList.remove('is-open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+}
