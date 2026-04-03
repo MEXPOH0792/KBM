@@ -4,249 +4,229 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Клуб будущих миллионеров — исламские финансы для мусульман</title>
-  <meta name="description" content="Образовательный проект по исламским финансам для мусульман: доходы, накопления, инвестиции и разбор базовых принципов простым языком.">
+  <meta name="description" content="Образовательный проект по исламским финансам для мусульман: основы халяльных финансов, материалы, FAQ и Telegram-канал.">
   <meta property="og:title" content="Клуб будущих миллионеров">
-  <meta property="og:description" content="Исламские финансы для мусульман: понятный вход в тему через Telegram-канал и базовые материалы.">
-  <meta property="og:type" content="website">
+  <meta property="og:description" content="Исламские финансы для мусульман: аккуратная база, материалы и вход в тему через Telegram-канал.">
   <meta property="og:image" content="logo.png">
-  <meta name="theme-color" content="#0f1720">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="site-shell">
-    <header class="site-header" id="top">
-      <div class="container header-row">
-        <a class="brand" href="#top" aria-label="К началу страницы">
-          <span class="brand-mark"><img src="logo.png" alt="Логотип проекта Клуб будущих миллионеров"></span>
-          <span class="brand-copy">
-            <strong>Клуб будущих миллионеров</strong>
-            <span>Образовательный проект по исламским финансам для мусульман</span>
-          </span>
+  <header class="site-header">
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="index.html" aria-label="На главную">
+          <img class="brand__logo" src="logo.png" alt="Логотип Клуба будущих миллионеров">
+          <div class="brand__copy">
+            <div class="brand__title">Клуб будущих миллионеров</div>
+            <div class="brand__subtitle">Образовательный проект по исламским финансам</div>
+          </div>
         </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">
-          <span></span><span></span><span></span>
-        </button>
-        <nav class="site-nav" aria-label="Основная навигация">
-          <a href="#inside">Что внутри</a>
-          <a href="#about">О проекте</a>
-          <a href="#path">Как строится путь</a>
-          <a href="#channel">Что в канале</a>
-          <a href="#faq">FAQ</a>
-          <a class="nav-cta js-telegram-link" href="#">Войти в канал</a>
+        <nav class="nav__menu" aria-label="Основная навигация">
+          <a class="is-active" href="index.html">Главная</a>
+          <a href="about.html">О проекте</a>
+          <a href="path.html">Как строится путь</a>
+          <a href="materials.html">Материалы</a>
+          <a href="faq.html">FAQ</a>
         </nav>
+        <div class="nav__actions">
+          <a class="btn btn--primary" data-telegram-link target="_blank" rel="noopener">Войти в Telegram-канал</a>
+          <button class="nav-toggle" type="button" aria-label="Открыть меню">☰</button>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="hero section">
-        <div class="container hero-grid">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Исламские финансы для мусульман</p>
-            <h1>Разбирайтесь в деньгах по шариату — спокойно, ясно и без сомнительных схем</h1>
-            <p class="hero-text">Объясняем основы халяльных финансов простым языком: как относиться к доходам, накоплениям и инвестициям так, чтобы это не противоречило исламским принципам.</p>
-            <div class="hero-actions">
-              <a class="button button-primary js-telegram-link" href="#">Войти в Telegram-канал</a>
-              <a class="button button-secondary" href="#inside">Посмотреть материалы</a>
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <span class="eyebrow">Исламские финансы для мусульман</span>
+          <h1>Разбирайтесь в деньгах <span class="accent">по шариату</span> — спокойно, ясно и без сомнительных схем</h1>
+          <p class="hero__lead">Объясняем основы халяльных финансов простым языком: как относиться к доходам, накоплениям и инвестициям так, чтобы это не противоречило исламским принципам.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" data-telegram-link target="_blank" rel="noopener">Войти в Telegram-канал</a>
+            <a class="btn btn--secondary" href="materials.html">Посмотреть материалы</a>
+          </div>
+          <div class="hero__meta" aria-label="Краткая характеристика проекта">
+            <span><span class="icon-dot">•</span>Базовые материалы</span>
+            <span><span class="icon-dot">•</span>Уважительный тон</span>
+            <span><span class="icon-dot">•</span>Без спорной риторики</span>
+          </div>
+        </div>
+        <aside class="hero__aside reveal">
+          <div class="summary-card">
+            <img src="logo.png" alt="Логотип клуба">
+            <div>
+              <h2>Аккуратная точка входа в тему</h2>
+              <p>Для тех, кто хочет понять основу, навести порядок в личных финансах и только потом переходить к более сложным вопросам.</p>
             </div>
           </div>
-          <aside class="hero-panel reveal reveal-delay-1" aria-label="Короткое описание формата">
-            <div class="panel-logo"><img src="logo.png" alt="Логотип проекта"></div>
-            <div class="hero-panel-body">
-              <p>Здесь не обещают быстрые результаты. Здесь помогают выстроить базовое понимание: что допустимо, на что смотреть в первую очередь и как принимать финансовые решения без постоянных сомнений.</p>
+          <div class="summary-note">
+            <strong>Что здесь важно</strong>
+            <p>Сайт не продаёт курс и не обещает быстрый результат. Он помогает собрать базу, чтобы дальше принимать решения без суеты и лишних допущений.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Что вы найдете внутри</h2>
+          <p class="section-subtitle">Материалы для тех, кто хочет разобраться в исламских финансах без перегруза и спорных формулировок.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card card--soft reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 12c2-5 5-7 8-7s6 2 8 7c-2 5-5 7-8 7s-6-2-8-7Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg>
             </div>
-          </aside>
+            <h3>Как отличать дозволенное от сомнительного</h3>
+            <p>Объясняем базовые принципы: где есть риба, где начинаются сомнения и на что смотреть в первую очередь.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h16"></path><path d="M7 4v6"></path><path d="M17 4v6"></path><rect x="4" y="7" width="16" height="13" rx="2"></rect><path d="M8 12h8"></path><path d="M8 16h5"></path></svg>
+            </div>
+            <h3>Как навести порядок в личных финансах</h3>
+            <p>Доходы, расходы, накопления, обязательства и финансовая дисциплина без крайностей и лишней теории.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 18 10 12l4 4 6-8"></path><path d="M18 8h2v2"></path></svg>
+            </div>
+            <h3>С чего начать изучение халяльных инвестиций</h3>
+            <p>Показываем базу: партнерские модели, допустимые инструменты и логику принятия решений.</p>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section section-soft" id="inside">
-        <div class="container">
-          <div class="section-head reveal">
-            <span class="section-kicker">Что вы найдете внутри</span>
-            <h2>Что вы найдете внутри</h2>
-            <p>Материалы для тех, кто хочет разобраться в исламских финансах без перегруза и спорных формулировок.</p>
+    <section class="section">
+      <div class="container about-layout">
+        <div class="copy-block reveal">
+          <div class="section-head" style="margin-bottom:0">
+            <h2 class="section-title">О проекте</h2>
+            <p class="section-subtitle">Этот проект создан для мусульман, которые хотят разобраться в деньгах без крайностей, давления и сомнительных решений.</p>
           </div>
-          <div class="cards-grid cards-grid-varied">
-            <article class="info-card info-card-accent reveal">
-              <div class="icon-wrap">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.75 7.75h14.5M7.75 12h8.5M9.75 16.25h4.5M6.5 3.75h11a2.75 2.75 0 0 1 2.75 2.75v11a2.75 2.75 0 0 1-2.75 2.75h-11a2.75 2.75 0 0 1-2.75-2.75v-11A2.75 2.75 0 0 1 6.5 3.75Z"/></svg>
-              </div>
-              <h3>Как отличать дозволенное от сомнительного</h3>
-              <p>Объясняем базовые принципы: где есть риба, где начинаются сомнения и на что смотреть в первую очередь.</p>
-            </article>
-            <article class="info-card reveal reveal-delay-1">
-              <div class="icon-wrap">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.75 6.75h14.5v10.5H4.75zM8 3.75v3M16 3.75v3M8 17.25v3M16 17.25v3M3.75 12h16.5"/></svg>
-              </div>
-              <h3>Как навести порядок в личных финансах</h3>
-              <p>Доходы, расходы, накопления, обязательства и финансовая дисциплина без крайностей и лишней теории.</p>
-            </article>
-            <article class="info-card reveal reveal-delay-2">
-              <div class="icon-wrap">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18.25 11 12l3.5 3.5L19.25 9.5M16.25 9.5h3v3M6.75 4.75h10.5A2.5 2.5 0 0 1 19.75 7.25v9.5a2.5 2.5 0 0 1-2.5 2.5H6.75a2.5 2.5 0 0 1-2.5-2.5v-9.5a2.5 2.5 0 0 1 2.5-2.5Z"/></svg>
-              </div>
-              <h3>С чего начать изучение халяльных инвестиций</h3>
-              <p>Показываем базу: партнерские модели, допустимые инструменты и логику принятия решений.</p>
-            </article>
-          </div>
+          <p>Здесь собраны базовые материалы по исламским финансам: как смотреть на доходы, расходы, накопления и инвестиции так, чтобы это было понятно, практически полезно и не противоречило шариату.</p>
+          <ul class="point-list">
+            <li>
+              <span class="icon-line" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"></path></svg></span>
+              <span><strong>Простым языком</strong> — без искусственно сложных объяснений</span>
+            </li>
+            <li>
+              <span class="icon-line" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18"></path><path d="M7 8h10"></path><path d="M5 16h14"></path></svg></span>
+              <span><strong>С опорой на принципы</strong> — без сомнительных трактовок</span>
+            </li>
+            <li>
+              <span class="icon-line" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span>
+              <span><strong>С пользой для жизни</strong> — чтобы знания можно было применять</span>
+            </li>
+          </ul>
         </div>
-      </section>
+        <aside class="rail reveal">
+          <div class="rail__item">
+            <strong>Кому это подходит</strong>
+            <span>Тем, кто только входит в тему, и тем, кто хочет пересобрать базу без лишней теории.</span>
+          </div>
+          <div class="rail__item">
+            <strong>Какой формат материалов</strong>
+            <span>Короткие тексты, разборы, вопросы и ответы, примеры из повседневной жизни.</span>
+          </div>
+          <div class="rail__item">
+            <strong>Что дальше</strong>
+            <span>После базы проще перейти к теме инструментов и уже смотреть на решения без лишней спешки.</span>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-      <section class="section" id="about">
-        <div class="container split-layout">
-          <div class="section-head align-left reveal">
-            <span class="section-kicker">О проекте</span>
-            <h2>О проекте</h2>
-            <p>Этот проект создан для мусульман, которые хотят разобраться в деньгах без крайностей, давления и сомнительных решений.</p>
-          </div>
-          <div class="about-panel reveal reveal-delay-1">
-            <p>Здесь собраны базовые материалы по исламским финансам: как смотреть на доходы, расходы, накопления и инвестиции так, чтобы это было понятно, практически полезно и не противоречило шариату.</p>
-            <ul class="benefit-list">
-              <li>
-                <span class="list-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M5.75 12.25 9.5 16l8.75-8.75M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/></svg>
-                </span>
-                <div>
-                  <strong>Простым языком</strong>
-                  <p>Без искусственно сложных объяснений</p>
-                </div>
-              </li>
-              <li>
-                <span class="list-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M7.75 12.25 10.5 15l5.75-5.75M12 3.75l7 3v5.25c0 3.87-2.38 7.37-6 8.62-3.62-1.25-6-4.75-6-8.62V6.75l7-3Z"/></svg>
-                </span>
-                <div>
-                  <strong>С опорой на принципы</strong>
-                  <p>Без сомнительных трактовок</p>
-                </div>
-              </li>
-              <li>
-                <span class="list-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24"><path d="M6.25 19.25h11.5M7.5 16.25V9.5a4.5 4.5 0 1 1 9 0v6.75M12 6.5V4.75"/></svg>
-                </span>
-                <div>
-                  <strong>С пользой для жизни</strong>
-                  <p>Чтобы знания можно было применять</p>
-                </div>
-              </li>
-            </ul>
-          </div>
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Как строится путь</h2>
         </div>
-      </section>
-
-      <section class="section section-soft" id="path">
-        <div class="container">
-          <div class="section-head reveal">
-            <span class="section-kicker">Как строится путь</span>
-            <h2>Как строится путь</h2>
-          </div>
-          <div class="path-layout">
-            <article class="path-step reveal">
-              <span class="path-number">01</span>
+        <div class="steps">
+          <article class="step reveal">
+            <div class="step__num">1</div>
+            <div>
               <h3>Понять базу</h3>
               <p>Что такое риба, какие принципы лежат в основе исламских финансов и почему без этой базы легко ошибиться.</p>
-            </article>
-            <article class="path-step reveal reveal-delay-1">
-              <span class="path-number">02</span>
+            </div>
+          </article>
+          <article class="step reveal">
+            <div class="step__num">2</div>
+            <div>
               <h3>Привести финансы в порядок</h3>
               <p>Разобраться с расходами, накоплениями, обязательствами и личной дисциплиной.</p>
-            </article>
-            <article class="path-step reveal reveal-delay-2">
-              <span class="path-number">03</span>
+            </div>
+          </article>
+          <article class="step reveal">
+            <div class="step__num">3</div>
+            <div>
               <h3>Перейти к дозволенным инструментам</h3>
               <p>Изучить халяльные подходы к инвестициям и понять, как принимать решения без внутреннего конфликта.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="channel">
-        <div class="container channel-layout">
-          <div class="section-head align-left reveal">
-            <span class="section-kicker">Что вы получите в канале</span>
-            <h2>Что вы получите в канале</h2>
-            <p>Короткие материалы, базовые разборы халяльных инструментов, типичные ошибки новичков и понятная точка входа в тему.</p>
-          </div>
-          <div class="channel-panel reveal reveal-delay-1">
-            <div class="channel-row">
-              <span class="channel-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M5.75 5.75h12.5v12.5H5.75zM8.75 9h6.5M8.75 12h6.5M8.75 15h4"/></svg>
-              </span>
-              <div>
-                <strong>Короткие объяснения</strong>
-                <p>Материалы без тяжёлой терминологии и длинных вступлений.</p>
-              </div>
             </div>
-            <div class="channel-row">
-              <span class="channel-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M4.75 12h14.5M12 4.75v14.5M7 7l10 10"/></svg>
-              </span>
-              <div>
-                <strong>Разбор типичных ошибок</strong>
-                <p>На что люди часто не смотрят в самом начале и почему это важно.</p>
-              </div>
-            </div>
-            <div class="channel-row">
-              <span class="channel-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M7.5 12.25 10.5 15l6-6M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/></svg>
-              </span>
-              <div>
-                <strong>Точка входа в тему</strong>
-                <p>Чтобы не собирать знания по кускам и не путаться в подходах.</p>
-              </div>
-            </div>
-          </div>
+          </article>
         </div>
-      </section>
-
-      <section class="section section-soft" id="faq">
-        <div class="container faq-layout">
-          <div class="section-head align-left reveal">
-            <span class="section-kicker">FAQ</span>
-            <h2>Частые вопросы</h2>
-          </div>
-          <div class="faq-list">
-            <details class="faq-item reveal" open>
-              <summary>Для кого этот проект?</summary>
-              <p>Для мусульман, которые хотят разобраться в базовых вопросах денег, накоплений и инвестиций без перегруза и спорных трактовок.</p>
-            </details>
-            <details class="faq-item reveal reveal-delay-1">
-              <summary>Нужна ли предварительная подготовка?</summary>
-              <p>Нет. Материалы рассчитаны на тех, кто только начинает входить в тему и хочет сначала выстроить базовое понимание.</p>
-            </details>
-            <details class="faq-item reveal reveal-delay-2">
-              <summary>Это обучение или инвестиционные рекомендации?</summary>
-              <p>Это образовательный проект. Он помогает разобраться в принципах и подходах, а не даёт персональные финансовые рекомендации.</p>
-            </details>
-          </div>
-        </div>
-      </section>
-
-      <section class="section final-cta">
-        <div class="container final-cta-box reveal">
-          <div>
-            <span class="section-kicker">Начните с простого и понятного входа в тему</span>
-            <h2>Начните с простого и понятного входа в тему</h2>
-            <p>Если хотите последовательно разобраться в исламских финансах, начните с материалов в Telegram-канале.</p>
-          </div>
-          <a class="button button-primary js-telegram-link" href="#">Перейти в Telegram-канал</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-row">
-        <div>
-          <strong>Клуб будущих миллионеров</strong>
-          <p>Образовательный проект по исламским финансам для мусульман</p>
-        </div>
-        <a class="footer-link js-telegram-link" href="#">Telegram-канал</a>
       </div>
-    </footer>
-  </div>
+    </section>
+
+    <section class="section">
+      <div class="container channel">
+        <div class="channel__box reveal">
+          <div class="section-head" style="margin-bottom:0">
+            <h2 class="section-title">Что вы получите в канале</h2>
+            <p class="section-subtitle">Короткие материалы, базовые разборы халяльных инструментов, типичные ошибки новичков и понятная точка входа в тему.</p>
+          </div>
+        </div>
+        <div class="channel__box reveal">
+          <div class="channel__items">
+            <div class="channel__item">
+              <span class="icon-line" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 6v12"></path><path d="M6 12h12"></path></svg></span>
+              <div>Короткие тексты, которые можно прочитать без длинной подготовки.</div>
+            </div>
+            <div class="channel__item">
+              <span class="icon-line" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16"></path><path d="M12 4v16"></path></svg></span>
+              <div>Разборы базовых вопросов: с чего начать, на что смотреть, чего избегать.</div>
+            </div>
+            <div class="channel__item">
+              <span class="icon-line" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 12h10"></path><path d="m13 8 4 4-4 4"></path></svg></span>
+              <div>Понятный маршрут от базы к более прикладным темам.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container cta-band reveal">
+        <div>
+          <h2>Начните с простого и понятного входа в тему</h2>
+          <p>Если хотите последовательно разобраться в исламских финансах, начните с материалов в Telegram-канале.</p>
+        </div>
+        <a class="btn btn--primary" data-telegram-link target="_blank" rel="noopener">Перейти в Telegram-канал</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div class="footer__brand">
+        <img src="logo.png" alt="Логотип клуба">
+        <div>
+          <div class="footer__name">Клуб будущих миллионеров</div>
+          <div class="footer__note">Образовательный проект по исламским финансам для мусульман</div>
+        </div>
+      </div>
+      <a class="btn btn--quiet" data-telegram-link target="_blank" rel="noopener">Telegram-канал</a>
+    </div>
+  </footer>
 
   <script src="main.js"></script>
 </body>

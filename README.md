@@ -1,20 +1,16 @@
-# Клуб будущих миллионеров — GitHub Pages версия
+# Клуб будущих миллионеров
 
-Готовый одностраничный сайт для GitHub Pages.
+Плоская версия многостраничного сайта для GitHub Pages.
 
-## Файлы
+## Структура
 - `index.html`
+- `about.html`
+- `path.html`
+- `materials.html`
+- `faq.html`
 - `style.css`
 - `main.js`
 - `logo.png`
-- `favicon.png`
 
 ## Telegram
-Ссылка на канал меняется в одном месте:
-- `main.js`
-- переменная `TELEGRAM_URL`
-
-## Публикация на GitHub Pages
-1. Загрузите все файлы в корень репозитория.
-2. В Settings -> Pages включите публикацию из branch `main` / root.
-3. Откройте ссылку GitHub Pages после деплоя.
+Ссылка на Telegram-канал задаётся в `main.js` в переменной `TELEGRAM_URL`.
